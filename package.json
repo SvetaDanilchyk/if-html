@@ -1,0 +1,23 @@
+{
+  "name": "if-html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SvetaDanilchyk/if-html.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SvetaDanilchyk/if-html/issues"
+  },
+  "homepage": "https://github.com/SvetaDanilchyk/if-html#readme",
+  "devDependencies": {
+    "prettier": "3.1.0"
+  }
+}

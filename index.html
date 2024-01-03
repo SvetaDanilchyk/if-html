@@ -7,74 +7,128 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="wrapper">
-        <div class="advantages">
-          <h2 class="title">What do we offer</h2>
-          <hr class="delimiter" />
-          <div class="offers">
-            <div class="col">
-              <img
-                class="offers-img"
-                src="img/icons/headset-mic-outlined.svg"
-                alt="headset"
-              />
-              <div class="description-offers">Support 24/7</div>
-            </div>
-            <div class="col">
-              <img
-                class="offers-img"
-                src="img/icons/forum-outlined.svg"
-                alt="forum"
-              />
-              <div class="description-offers">Communicate directly</div>
-            </div>
-            <div class="col">
-              <img
-                class="offers-img"
-                src="img/icons/devices-outlined.svg"
-                alt="devices-outlined"
-              />
-              <div class="description-offers">Book online</div>
-            </div>
-            <div class="col">
-              <img
-                class="offers-img"
-                src="img/icons/thumb-up-alt-outlined.svg"
-                alt="like"
-              />
-              <div class="description-offers">Real guest reviews</div>
-            </div>
+    <!-- TOP SECTION -->
+    <div class="top-section">
+      <div class="container">
+
+        <nav class="header">
+          <ul class="header-menu">
+            <li class="header-label"></li>
+          </ul>
+          <ul class="header-menu">
+            <li> <a class="header-menu-text padington-24" href="#">Stays</a></li>
+            <li> <a class="header-menu-text padington-48" href="#">Attractions</a></li>          
+            <li  class="padington-24"> <button class="header-menu-btm-night"></button></li>
+            <li> <a href="#"><div class="header-menu-icon-acount"></div></a></li>
+          </ul>
+        </nav>
+
+        <h1 class="header-title">
+          Discover stays
+          <p>to live, work or just relax</p>
+        </h1>
+
+        <form class="search">
+          <div class="search-ciity column">
+            <label for="hotel-name">Your destination or hotel name</label>
+            <input class="height" type="text" name="" id="hotel-name" />
+          </div>
+          <div class="column">
+            <label for="check-name">Check-in — Check-out</label>
+            <input
+              class="reservation-date height"
+              type="date"
+              id="check-name"
+            />
+          </div>
+          <select class="select-room height" name="select">
+            <option value="aduls">Aduls</option>
+            <option value="children">Children</option>
+            <option value="room">Room</option>
+          </select>
+          <button class="serch-button height">Serch</button>
+        </form>
+
+        <div class="apps">
+          <a href="#"><div class="apps-google-icon"></div></a>
+          <a href="#"><div class="apps-appstore-icon"></div></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ADVANTAGES -->
+    <div class="advantages">
+      <div class="container">
+        <h2 class="title">What do we offer</h2>
+        <hr class="delimiter" />
+        <div class="offers">
+          <div class="col">
+            <img
+              class="offers-img"
+              src="img/icons/headset-mic-outlined.svg"
+              alt="headset"
+            />
+            <div class="description-offers">Support 24/7</div>
+          </div>
+
+          <div class="col">
+            <img
+              class="offers-img"
+              src="img/icons/forum-outlined.svg"
+              alt="forum"
+            />
+            <div class="description-offers">Communicate directly</div>
+          </div>
+
+          <div class="col">
+            <img
+              class="offers-img"
+              src="img/icons/devices-outlined.svg"
+              alt="devices-outlined"
+            />
+            <div class="description-offers">Book online</div>
+          </div>
+          <div class="col">
+            <img
+              class="offers-img"
+              src="img/icons/thumb-up-alt-outlined.svg"
+              alt="like"
+            />
+            <div class="description-offers">Real guest reviews</div>
           </div>
         </div>
       </div>
-      <div class="footer">
-        <div class="wrapper">
-          <div class="contacts">
-            <div>
-              <a class="contacts-descr roboto-medium" href="#">About</a>
-              <a class="contacts-descr" href="#">How Triphouse works</a>
-              <a class="contacts-descr" href="#">Careers</a>
-              <a class="contacts-descr" href="#">Privacy</a>
-              <a class="contacts-descr" href="#">Terms</a>
-            </div>
-            <div>
-              <a class="contacts-descr roboto-medium" href="#">Property types</a>
-              <a class="contacts-descr" href="#">Guest houses</a>
-              <a class="contacts-descr" href="#">Hotels</a>
-              <a class="contacts-descr" href="#">Apartments</a>
-              <a class="contacts-descr" href="#">Villas</a>
-              <a class="contacts-descr" href="#">Holiday homes</a>
-              <a class="contacts-descr" href="#">Hostels</a>
-            </div>
-            <div>
-              <a class="contacts-descr roboto-medium" href="#">Support</a>
-              <a class="contacts-descr" href="#">Contact Customer Service</a>
-              <a class="contacts-descr" href="#">FAQ</a>
-            </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+      <div class="container">
+        <div class="contacts">
+          <div>
+            <div class="contacts-title" href="#">About</div>
+            <a class="contacts-descr" href="#">How Triphouse works</a>
+            <a class="contacts-descr" href="#">Careers</a>
+            <a class="contacts-descr" href="#">Privacy</a>
+            <a class="contacts-descr" href="#">Terms</a>
           </div>
-          <strong> &copy; 2022Triphouse, Inc. All rights reserved</strong>
+          <div>
+            <div class="contacts-title" href="#">Property types</div>
+            <a class="contacts-descr" href="#">Guest houses</a>
+            <a class="contacts-descr" href="#">Hotels</a>
+            <a class="contacts-descr" href="#">Apartments</a>
+            <a class="contacts-descr" href="#">Villas</a>
+            <a class="contacts-descr" href="#">Holiday homes</a>
+            <a class="contacts-descr" href="#">Hostels</a>
+          </div>
+          <div>
+            <div class="contacts-title" href="#">Support</div>
+            <a class="contacts-descr" href="#">Contact Customer Service</a>
+            <a class="contacts-descr" href="#">FAQ</a>
+          </div>
         </div>
+        <strong class="copyright">
+          &copy; 2022Triphouse, Inc. All rights reserved</strong
+        >
       </div>
     </div>
   </body>

@@ -28,6 +28,11 @@
     margin: 80px 0 120px;
   }
   
+  .offers__size-svg {
+    width: 100px;
+    height: 100px;
+  }
+
   .col {
     display: flex;
     flex-direction: column;
@@ -35,7 +40,7 @@
     width: 296px;
   }
   
-  .description-offers {
+  .offers__description {
     font-weight: 400;
     margin-top: 48px;
     color: #383838;

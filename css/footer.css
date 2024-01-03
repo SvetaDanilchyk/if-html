@@ -18,7 +18,7 @@
     width: 400px;
   }
   
-  .contacts-descr {
+  .contacts__descr {
     display: flex;
     flex-direction: column;
     font-weight: 400;
@@ -28,7 +28,7 @@
     padding-bottom: 24px;
   }
   
-  .contacts-descr:hover {
+  .contacts__descr:hover {
     color: #c4c4c4;
   }
   
@@ -39,7 +39,7 @@
     font-weight: 400;
   }
   
-  .contacts-title {
+  .contacts__title {
     display: flex;
     color: #ffffff;
     font-size: 20px;

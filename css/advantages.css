@@ -6,9 +6,12 @@
   
   .title {
     font-weight: 500;
-    padding-top: 120px;
-    text-align: center;
     font-size: 40px;
+  }
+
+  .advantages__title {    
+    text-align: center;
+    padding-top: 120px;
   }
   
   .delimiter {

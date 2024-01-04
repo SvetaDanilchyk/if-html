@@ -57,8 +57,8 @@
               <a class="menu__text  menu__text--padington-48" href="#">Attractions</a>
             </li>
             <li class="menu__text--padington-24">
-              <button class="menu__btm-night">
-                <svg class="menu_btm-night--size">
+              <button class="menu__btn-night">
+                <svg class="menu__btn-night--size-m">
                   <use  href="./img/icons/sprite.svg#night">
                 </svg>
               </button>
@@ -79,24 +79,29 @@
         </h1>
 
         <form class="search">
-          <div class="search__city column">
+          <div class="search__input search__input--width-hotel column">
             <label for="hotel-name">Your destination or hotel name</label>
-            <input class="serch--height" type="text" name="" id="hotel-name" />
+            <input 
+              class="serch--height" 
+              type="text" 
+              name="" 
+              id="hotel-name" 
+            />
           </div>
           <div class="column">
             <label for="check-name">Check-in — Check-out</label>
             <input
-              class="search__city-date serch--height"
+              class="search__input search__input--width serch--height --yellow"
               type="date"
               id="check-name"
             />
           </div>
-          <select class="select-room serch--height" name="select">
+          <select class="search__input search__input--width serch--height " name="select">
             <option value="aduls">Aduls</option>
             <option value="children">Children</option>
             <option value="room">Room</option>
           </select>
-          <button class="serch__btm height">Serch</button>
+          <button class="serch__btn serch--height ">Serch</button>
         </form>
 
         <div class="apps">
@@ -117,7 +122,7 @@
     <!-- ADVANTAGES -->
     <div class="advantages">
       <div class="container">
-        <h2 class="title">What do we offer</h2>
+        <h2 class="title advantages__title">What do we offer</h2>
         <hr class="delimiter" />
         <div class="offers">
           <div class="col">

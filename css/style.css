@@ -2,6 +2,13 @@
 @import url("./top-section.css");
 @import url("./advantages.css");
 @import url("./footer.css");
+/* 
+@import url("./media.css");
+ */
+:root {
+  --col-width: calc(100% / 12);
+}
+
 * {
   margin: 0;
   box-sizing: border-box;
@@ -9,8 +16,111 @@
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 1264px;
   width: 100%;
   margin: 0 auto;
-  padding: 0 104px;
+  padding: 0 16px;
+}
+
+@media (max-width: 480px) {
+  :root {
+    --col-width: calc(100% / 6);
+  }
+
+  .col-xs-1 {
+    width: var(--col-width);
+  }
+  .col-xs-2 {
+    width: calc(var(--col-width) * 2);
+  }
+  .col-xs-3 {
+    width: calc(var(--col-width) * 3);
+  }
+  .col-xs-4 {
+    width: calc(var(--col-width) * 4);
+  }
+  .col-xs-5 {
+    width: calc(var(--col-width) * 5);
+  }
+  .col-xs-6 {
+    width: calc(var(--col-width) * 6);
+  }
+}
+
+@media (max-width: 768px) {
+  .col-sm-1 {
+    width: var(--col-width);
+  }
+  .col-sm-2 {
+    width: calc(var(--col-width) * 2);
+  }
+  .col-sm-3 {
+    width: calc(var(--col-width) * 3);
+  }
+  .col-sm-4 {
+    width: calc(var(--col-width) * 4);
+  }
+  .col-sm-5 {
+    width: calc(var(--col-width) * 5);
+  }
+  .col-sm-6 {
+    width: calc(var(--col-width) * 6);
+  }
+  .col-sm-7 {
+    width: calc(var(--col-width) * 7);
+  }
+  .col-sm-8 {
+    width: calc(var(--col-width) * 8);
+  }
+  .col-sm-9 {
+    width: calc(var(--col-width) * 9);
+  }
+  .col-sm-10 {
+    width: calc(var(--col-width) * 10);
+  }
+  .col-sm-11 {
+    width: calc(var(--col-width) * 11);
+  }
+  .col-sm-12 {
+    width: calc(var(--col-width) * 12);
+  }
+}
+
+@media (max-width: 1024px) {
+  .col-md-1 {
+    width: var(--col-width);
+  }
+  .col-md-2 {
+    width: calc(var(--col-width) * 2);
+  }
+  .col-md-3 {
+    width: calc(var(--col-width) * 3);
+  }
+  .col-md-4 {
+    width: calc(var(--col-width) * 4);
+  }
+  .col-md-5 {
+    width: calc(var(--col-width) * 5);
+  }
+  .col-md-6 {
+    width: calc(var(--col-width) * 6);
+  }
+  .col-md-7 {
+    width: calc(var(--col-width) * 7);
+  }
+  .col-md-8 {
+    width: calc(var(--col-width) * 8);
+  }
+  .col-md-9 {
+    width: calc(var(--col-width) * 9);
+  }
+  .col-md-10 {
+    width: calc(var(--col-width) * 10);
+  }
+  .col-md-11 {
+    width: calc(var(--col-width) * 11);
+  }
+  .col-md-12 {
+    width: calc(var(--col-width) * 12);
+  }
 }

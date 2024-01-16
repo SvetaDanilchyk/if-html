@@ -46,3 +46,7 @@
   padding-bottom: 24px;
   font-weight: 500;
 }
+
+.contacts__logo {
+  display: none;
+}

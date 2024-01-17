@@ -6,6 +6,13 @@
 @import url("./media.css");
  */
 :root {
+  --text-color-main: #383838;
+  --general-color: #10367c;
+  --accent-color: #eaf0f9;
+  --general-text-color: #fff;
+  --stroke-color-main: #f3f3f4;
+  --accent-color-line: #f5bd41;
+  --color-btn: #3077c6;
   --col-width: calc(100% / 12);
 }
 
@@ -99,7 +106,7 @@
 
   .contacts__title {
     display: flex;
-    color: #ffffff;
+    color: var(--general-text-color);
     font-size: 15px;
     font-weight: 500;
     padding-bottom: 0;

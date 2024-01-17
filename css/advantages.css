@@ -20,7 +20,7 @@
   margin-right: auto;
   height: 4px;
   width: 100px;
-  background-color: #f5bd41;
+  background-color: var(--accent-color-line);
   border: none;
 }
 
@@ -46,7 +46,7 @@
 .offers__description {
   font-weight: 400;
   margin-top: 48px;
-  color: #383838;
+  color: var(--text-color-main);
   text-align: center;
   font-size: 24px;
 }

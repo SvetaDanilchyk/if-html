@@ -44,6 +44,7 @@
     <div class="top-section">
       <div class="container">
         <nav class="header">
+
           <ul class="menu">
             <li class="menu__label">
               <svg>
@@ -51,10 +52,13 @@
               </svg>
             </li>
           </ul>
+
           <ul class="menu">
-            <li><a class="menu__text menu__text--padington-24" href="#">Stays</a></li>
             <li>
-              <a class="menu__text  menu__text--padington-48" href="#">Attractions</a>
+              <a class="menu__text menu__text--padington-24 active" href="#">Stays</a>
+            </li>
+            <li>
+              <a class="menu__text  menu__text--padington-48 active" href="#">Attractions</a>
             </li>
             <li class="menu__text--padington-24">
               <button class="menu__btn-night">
@@ -69,6 +73,11 @@
                   <use  href="./img/icons/sprite.svg#account-circle">
                 </svg>
               </a>
+            </li>
+            <li class="menu__hamburger">              
+              <div class="menu__hamburger-item"></div>
+              <div class="menu__hamburger-item"></div>
+              <div class="menu__hamburger-item"></div>
             </li>
           </ul>
         </nav>
@@ -90,18 +99,86 @@
           </div>
           <div class="column">
             <label for="check-name">Check-in — Check-out</label>
-            <input
+            <input 
               class="search__input search__input--width serch--height --yellow"
               type="date"
               id="check-name"
             />
           </div>
-          <select class="search__input search__input--width serch--height " name="select">
+          <select class="search__input search__input--width serch--height" name="select">
             <option value="aduls">Aduls</option>
             <option value="children">Children</option>
             <option value="room">Room</option>
           </select>
-          <button class="serch__btn serch--height ">Serch</button>
+          <button class="serch__btn serch--height gr-xs-4">Serch</button>
+        </form>
+
+        <form class="serch-adapt">
+          <!-- 1 -->
+          <div class="serch-adapt__hotel">
+              <!-- <svg class="find">
+                <use  href="./img/icons/find.svg">
+              </svg> -->
+
+           <!--  <img class="find"src="./img/icons/loupe.png" alt="loupe">
+            <label class="label d" for="hotel">Your destination or hotel name</label> -->
+
+             <input  class="style-input ac" id="hotel" type="search" name="hotel" placeholder="Your destination or hotel name">
+          </div>
+          
+          <!-- 2 -->
+          <div class="serch-adapt__check-in">
+            <label class="label__date" for="check-in">Check-in</label>
+            <input 
+              class="style-input border-input"
+              type="date"  
+              id="check-in"            
+            />
+          </div>
+
+          
+          <div class="serch-adapt__check-out" >
+            <div>
+              <label class="label__date" for="check-out">Check-out</label>
+            </div>
+            <input 
+              class="style-input border-input"
+              type="date"
+              id="check-out"
+            />
+          </div>
+           
+          <!-- 3 -->  
+
+            <div class="serch-adapt__list">
+
+                 <div class="serch-adapt__list--style">
+
+                  <div class="serch-adapt__items dd">                   
+                    <label class="label__date" for="adutuls">Adutuls</label>                                       
+                    <input class="style-input border-n " type="number" name="" id="adutuls">       
+                  </div>
+
+                  <hr>
+
+                  <div class="serch-adapt__items">
+                    <label class="label__date" for="children">Children</label>
+                    <input class="style-input  border-n" type="number" name="" id="children">
+                  </div>
+
+                  <hr>
+
+                  <div class="serch-adapt__items">
+                    <label class="label__date" for="rooms">Rooms</label>
+                    <input class="style-input  border-n border-w" type="number" name="" id="rooms">
+                  </div>             
+
+                </div>             
+            </div>
+
+        <!-- 4 -->
+            <button  class=" serch-adapt__btn style-input">Serch</button>        
+
         </form>
 
         <div class="apps">
@@ -161,7 +238,7 @@
     <div class="footer">
       <div class="container">
         
-       <svg class="contacts__logo">
+       <svg class="footer__logo">
           <use href="./img/icons/logo-vector.svg#logo-footer">
           </use>
         </svg>
@@ -189,7 +266,7 @@
             <a class="contacts__descr" href="#">FAQ</a>
           </div>
         </div>
-        <strong class="copyright col-xs-3">
+        <strong class="footer__copyright col-xs-3">
           &copy; 2020 Triphouse, Inc. All rights reserved</strong
         >
       </div>

@@ -51,7 +51,7 @@ ul {
   margin-right: 48px;
 }
 
-.delimiter:hover::after {  
+.delimiter:hover::after {
   content: "";
   position: absolute;
   bottom: -5px;

@@ -1,5 +1,5 @@
 .homes {
-  min-height: 828px;
+  max-height: 828px;
   padding-top: 120px;
   padding-bottom: 120px;
   background-color: var(--accent-color);
@@ -25,12 +25,6 @@
 
 .slider__img {
   margin-bottom: 24px;
-}
-
-.left-arrow {
-  position: absolute;
-  left: -20px;
-  top: 148px;
 }
 
 .right-arrow {

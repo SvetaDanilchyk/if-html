@@ -1,6 +1,7 @@
 @import url("./fonts.css");
 @import url("./top-section.css");
 @import url("./advantages.css");
+@import url("./homes.css");
 @import url("./footer.css");
 /* 
 @import url("./media.css");
@@ -13,6 +14,7 @@
   --stroke-color-main: #f3f3f4;
   --accent-color-line: #f5bd41;
   --color-btn: #3077c6;
+  --text-color: #bfbfbf;
   --col-width: calc(100% / 12);
 }
 
@@ -140,7 +142,7 @@
     height: 24px;
   }
 
-  .menu__text--padington-24 {
+  .menu__text--margin-24 {
     padding-right: 0;
   }
 

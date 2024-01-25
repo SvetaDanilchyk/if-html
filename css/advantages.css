@@ -5,8 +5,25 @@
 }
 
 .title {
+  position: relative;
+  display: block;
   font-weight: 500;
   font-size: 40px;
+}
+
+.advantages .title:before {
+  content: "";
+  position: absolute;
+  display: block;
+  bottom: -20px;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  height: 4px;
+  width: 100px;
+  background-color: var(--accent-color-line);
+  border: none;
+
 }
 
 .advantages__title {
@@ -14,17 +31,9 @@
   padding-top: 120px;
 }
 
-.delimiter {
-  margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  height: 4px;
-  width: 100px;
-  background-color: var(--accent-color-line);
-  border: none;
-}
-
 .offers {
+  
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   align-items: center;

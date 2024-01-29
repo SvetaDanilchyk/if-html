@@ -32,7 +32,7 @@
   color: #c4c4c4;
 }
 
-.copyright {
+.footer__copyright {
   display: flex;
   color: var(--general-text-color);
   font-size: 14px;
@@ -47,6 +47,6 @@
   font-weight: 500;
 }
 
-.contacts__logo {
+.footer__logo {
   display: none;
 }

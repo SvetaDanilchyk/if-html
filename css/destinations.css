@@ -92,11 +92,16 @@ h4 {
   margin-top: 25%;
   transform: rotate(90deg);
 }
-.bottom-arrow {
-  position: absolute;
-  top: calc(50% - 22px);
-  right: -20px;
+.destinations .bottom-arrow {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
 }
+
+.destinations .slider__btn {
+  transform: rotate(90deg);
+  box-shadow: 6px 4px 4px rgba(0, 0, 0, 0.25);
+} 
 
 .btn {
   width: 128px;

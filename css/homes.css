@@ -29,8 +29,8 @@
 
 .right-arrow {
   position: absolute;
+  top: calc(50% - 84px);
   right: -20px;
-  top: 148px;
 }
 
 .slider__btn {

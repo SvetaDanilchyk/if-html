@@ -44,18 +44,18 @@ h4 {
   border-radius: 8px;
 }
 
-.--size {
+.size {
   width: 239px;
 }
 
-.--active {
+.active {
   display: none;
 }
 
 .sing-up {
-  background-color: #eaf0f9;
+  background-color: var(--accent-color);
   margin-bottom: 120px !important;
-
+  order: 1;
   position: relative;
 }
 
@@ -85,13 +85,14 @@ h4 {
   display: none;
   font-size: 14px;
   font-weight: 500;
-  color: #3077c6;
+  color: var(--color-btn);
 }
 
 .arrow {
   margin-top: 25%;
   transform: rotate(90deg);
 }
+
 .destinations .bottom-arrow {
   display: flex;
   margin-top: 40px;
@@ -121,5 +122,5 @@ h4 {
   height: 26px;
   right: 24px;
   top: 24px;
-  fill: #bfbfbf;
+  fill: var(--text-color);
 }

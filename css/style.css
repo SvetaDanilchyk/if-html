@@ -445,6 +445,9 @@
   }
 
   /* REVIEWS */
+  .reviews .slider__item:nth-child(3) {
+    display: none;
+  }
   .sing-up {
     margin-bottom: 80px !important;
   }
